@@ -1,3 +1,4 @@
+// import the useContext hook
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 
