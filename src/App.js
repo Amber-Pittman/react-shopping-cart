@@ -17,7 +17,7 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
-		setCart(item);
+		setCart([item]);
 	};
 
 	return (
@@ -30,7 +30,6 @@ function App() {
 					<Route exact path="/" component={Products} />
 
 					<Route path="/cart" component={ShoppingCart} />
-					/>
 				</div>
 			</CartContext.Provider>
 		</ProductContext.Provider>
