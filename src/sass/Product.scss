@@ -1,6 +1,6 @@
 .product {
 	border-radius: 5px;
-	background: white;
+	background: #fff;
 	transition: 0.2s ease-in-out;
 	width: 333px;
 	margin: 30px;
@@ -10,24 +10,30 @@
 	}
 
 	.details {
-		display: flex;
+		//display: flex;
+	}
+
+
+	img {
+		object-fit: contain;
+		background-color: #d7d7d7;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		max-width: 333px;
+		min-height: 498px;
 	}
 
 	.title {
 		font-weight: bold;
-		margin: 10px 0 0 25px;
+		font-size: 1.2em;
+		margin: 2em 0 0 25px;
+		color: lightcoral;
 	}
 
 	.price {
 		margin-left: 25px;
 		padding: 5px 0;
-	}
-
-	img {
-		object-fit: contain;
-		border-top-left-radius: 5px;
-		border-top-right-radius: 5px;
-		max-width: 333px;
+		line-height: 1.35;
 	}
 
 	button {
